@@ -5,4 +5,4 @@ set(CMAKE_C_STANDARD 99)
 
 add_library(CCord src/client.c src/client.h src/intents.h src/constants.h src/utils.h)
 
-target_include_directories(CCord PRIVATE ${PROJECT_SOURCE_DIR}/include/http-client-c/src)
+target_include_directories(CCord PRIVATE ${PROJECT_SOURCE_DIR}/deps/http-client-c/src)
